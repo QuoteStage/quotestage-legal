@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ava Scheduling Privacy Policy | QuoteStage</title>
+  <meta name="description" content="Privacy policy for the Ava scheduling integration, including its use of Google Calendar data.">
+  <style>
+    :root{--ink:#172033;--muted:#5d6678;--line:#dfe4ec;--accent:#3157d5;--bg:#f6f8fb}
+    *{box-sizing:border-box}body{margin:0;font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
+    main{max-width:860px;margin:0 auto;padding:56px 24px 80px}article{background:#fff;border:1px solid var(--line);border-radius:18px;padding:clamp(24px,6vw,48px);box-shadow:0 12px 36px rgba(23,32,51,.07)}
+    h1{font-size:clamp(2rem,5vw,3rem);line-height:1.12;margin:.25em 0}h2{margin-top:2.1rem;line-height:1.25}p,li{color:var(--muted)}a{color:var(--accent)}
+    .eyebrow{color:var(--accent);font-weight:750;letter-spacing:.08em;text-transform:uppercase;font-size:.78rem}.summary{padding:16px 18px;border:1px solid #cbd7ff;background:#f4f7ff;border-radius:12px}
+    nav{margin-bottom:24px}footer{border-top:1px solid var(--line);margin-top:36px;padding-top:20px;font-size:.9rem}
+  </style>
+</head>
+<body>
+<main>
+  <nav><a href="../">← QuoteStage service information</a></nav>
+  <article>
+    <div class="eyebrow">Privacy policy</div>
+    <h1>Ava Scheduling</h1>
+    <p><strong>Effective date:</strong> October 28, 2026</p>
+    <p class="summary">Ava Scheduling uses Google Calendar authorization solely to create consultation appointments that a person has requested and confirmed. Google user data is not sold or used for advertising.</p>
+
+    <h2>Scope</h2>
+    <p>This policy describes the information handled by the Ava automated scheduling integration operated by QuoteStage. It applies to appointment scheduling and the associated Google Calendar integration.</p>
+
+    <h2>Information handled</h2>
+    <p>When an appointment is requested, the service may process:</p>
+    <ul>
+      <li>The prospect's name, telephone number, general location, requested appointment time, lead reference information, and a brief scheduling context.</li>
+      <li>Calendar-event details needed to create the requested appointment, including its title, start and end time, description, and callback information.</li>
+      <li>A Google OAuth authorization token that permits the service to create calendar events.</li>
+      <li>Operational information such as a call identifier, request timestamps, and success or error status.</li>
+    </ul>
+
+    <h2>How Google data is used</h2>
+    <p>The current integration uses Google Calendar access to insert a confirmed consultation event into the authorized calendar. It does not use Google Calendar to build advertising profiles, sell information, or access Gmail, Google Drive, Google Contacts, or unrelated Google services.</p>
+    <p>Use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+
+    <h2>Purpose</h2>
+    <p>Information is used only to offer appointment availability, create the appointment selected by the prospect, provide the licensed agent with the information needed for the scheduled call, maintain service security, and diagnose failures.</p>
+
+    <h2>Service providers</h2>
+    <p>The integration relies on service providers that may process limited information on QuoteStage's behalf, including Google Calendar for appointments, Calendly for availability, Railway for application hosting, ElevenLabs for the automated voice interaction, and Twilio for telephone services. Each provider processes information under its own terms and privacy practices.</p>
+
+    <h2>Storage and retention</h2>
+    <ul>
+      <li>The Google OAuth refresh token is stored as a protected server environment variable and retained until it is replaced or authorization is revoked.</li>
+      <li>Created calendar events remain in the authorized Google Calendar until they are changed or deleted by an authorized calendar user.</li>
+      <li>Temporary appointment-option context is held in application memory for a short period and then expires.</li>
+      <li>Infrastructure providers may retain operational logs according to their normal security and retention practices.</li>
+    </ul>
+
+    <h2>Sharing and sale</h2>
+    <p>Google user data is not sold. Information is shared only with the service providers needed to operate the scheduling workflow, the authorized insurance representative handling the consultation, or when legally required.</p>
+
+    <h2>Security</h2>
+    <p>QuoteStage uses encrypted network connections, restricted service credentials, and protected environment-variable storage. No system can guarantee absolute security, but access is limited to what is needed to operate the scheduling service.</p>
+
+    <h2>Your controls</h2>
+    <p>The Google account owner may review or revoke the application's authorization through <a href="https://myaccount.google.com/connections" rel="noopener">Google Account third-party connections</a>. Authorized calendar users may also edit or delete events from Google Calendar. Privacy questions may be directed to the support contact displayed on the application's Google OAuth consent screen.</p>
+
+    <h2>Changes</h2>
+    <p>This policy may be updated when the integration, service providers, or legal requirements change. The effective date above will be revised when material updates are published.</p>
+
+    <footer>QuoteStage · <a href="../ava-scheduling/">Ava Scheduling Assistant</a></footer>
+  </article>
+</main>
+</body>
+</html>
